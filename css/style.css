@@ -1,0 +1,102 @@
+*{
+    font-family: 'Passion One', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+#navbar{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    height: 80px;
+    position: fixed;
+}
+
+#navbar-container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+}
+
+#navbar-items li a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+#navbar-items li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#navbar-items li{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+#banners{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("/img/background.jpg");
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+
+#banners-container{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#first-topic{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.first-topic-container{
+    align-items: center;
+    display: flex;
+}
+
+#second-topic{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.second-topic-container{
+    display: flex;
+    align-items: center;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
