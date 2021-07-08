@@ -1,0 +1,27 @@
+#social-media-container{
+    grid-template-columns: repeat(2, 1fr) ;
+    align-items: center;
+    margin-left: auto;
+    width: 50vh;
+}
+
+.redes{
+    width: 25%;
+}
+
+.first-topic-container{
+    flex-direction: column;
+
+}
+
+.first-topic-container img{
+    width: 100%;
+}
+
+.second-topic-container{
+    flex-direction: column;
+}
+
+.second-topic-container{
+    width: 100%;
+}
